@@ -77,8 +77,8 @@ The agent detected a `.env` file access attempt, forwarded it to Groq for analys
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd log-security-agent
+git clone https://github.com/johngachara/logagent
+cd logagent
 
 # Run the deployment script
 chmod +x start.sh
@@ -96,7 +96,7 @@ apis:
   virustotal_key: "your-virustotal-key"
   abuseipdb_key: "your-abuseipdb-key"
   pushover_token: "your-pushover-app-token"
-  pushover_user: "your-pushover-user-key"
+  pushover_user_key: "your-pushover-user-key"
 
 thresholds:
   minimum_score: 3        # Minimum score to log
